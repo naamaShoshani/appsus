@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 1rem;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Open Sans' sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+    
+h2 {
+    color: #5e17eb;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+  .flex {
+    display: flex;
+  }
+  
+
+.book-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 10%;
+}
+
+body {
+    position: relative;
+    background-color: white;
+    color: rgb(251, 251, 251);
+    /* text-align: center; */
+}
+
+.book-app {
+    text-align: center;
+}
+
+.book-app h1 {
+    color: #5e17eb;
+    margin-bottom: 50px;
+}
+
+
+/* Book Frame: */
+.book-list li {
+    margin: 5px;
+    color: rgb(94, 23, 235);
+    background-color: transparent;
+    outline: none;
+    padding: 7px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-radius: 10px
+}
+
+.book-list li:hover{
+    cursor: pointer;
+}
+
+.book-list li img {
+    width: 140px;
+}
+
+.book-details-container {
+    text-align: center;
+    /* background-color: black; */
+    /* opacity: 0.95; */
+    color: rgb(94, 23, 235);
+    padding: 15px;
+    padding-top: 1px;
+}
+
+.book-details-container h1 {
+    font-size: 40px;
+}
+
+input {
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(179, 179, 179);
+    /* border-image: initial; */
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.book-details-container .expensive {
+    color: red;
+}
+
+.book-details-container .cheap {
+    color: rgb(0, 255, 0);
+}
+
+.book-details-container .sale {
+    font-size: 25px;
+    color: red;
+}
+
+.book-details-container img {
+    width: 200px;
+    /* padding: 5px; */
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 10px
+}
+
+.read-more{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+}
+.read-more button:hover{
+    cursor: pointer;
+}
+
+.reviews{
+    color: black;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.review {
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input, select{
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    /* border-width: 3px; */
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+    
+}
+
+textarea {
+    height: 100px;
+    width: 500px;
+
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.details-btn {
+    color: rgb(94, 23, 235);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+    /* background-color: white; */
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+}
+
+.details-btn:hover {
+    background-color: #ddbbff;
+}
+
+.rate-book-select {
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+    width: 100px;
+}

@@ -1,0 +1,66 @@
+@import '../../apps/keep/css/keep-main.css';
+@import '../../apps/email/css/email-main.css';
+@import '../../apps/books/css/book.css';
+
+
+
+body, html {
+    min-height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #5e17eb;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    color: #5e17eb;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: bold;
+    font-size: 2rem;;
+    text-align: center;
+    }
+
+/* Helpers */
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+nav {
+    text-align: center;
+    color: #5e17eb;
+    font-size: 1.5rem;
+    padding: 13.8px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    box-shadow: 0px 0.2px 20px grey;
+    text-align: right;
+    background-image: url('../../img/svglogo.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.text-logo {
+text-align: left;
+}
+
+.nav-bar a {
+    color: #5e17eb;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+.unicorn {
+    /* background-image: url('../../img/unicorn.png'); */
+    margin-left: 37%;
+    /* width: 400px;
+    height: 400px; */
+}

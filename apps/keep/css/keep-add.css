@@ -1,0 +1,30 @@
+.keep-add {
+    padding: 10px;
+}
+
+.keep-add input[type=text]{
+    width: 300px;
+    padding: 10px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+}
+
+.add-keep-btn{
+    border: none;
+    cursor: pointer;
+    color: #b3b3b3;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 1rem;
+}
+
+.active-keep-add {
+    font-size: 20px;
+    color: #5e17eb;
+}

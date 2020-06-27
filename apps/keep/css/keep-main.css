@@ -1,0 +1,122 @@
+@import '../css/keep-todo.css';
+@import '../css/keep-actions.css';
+@import '../css/keep-add.css';
+@import '../css/keep-filter.css';
+@import '../css/keep-video.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans' sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+  
+/* Helpers */
+
+.flex {
+  display: flex;
+}
+
+
+.justify-center {
+  justify-content: center;
+  margin-left: 7%;
+}
+
+/* Space Between Actions */
+.space-between {
+  justify-content: space-between;
+}
+
+.ui-box {
+  /* box-shadow: 0px 5px 10px 0px grey; */
+  background-color: white;
+}
+
+.note {
+  box-shadow: 0px 5px 10px 0px grey;
+  display: inline-block;
+  break-inside: avoid;
+}
+
+/* Change Colors */
+.note-action-bar i.colors span {
+	  width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 3px 1px
+}
+
+/* Single Note Buttone */
+.deleteTodoBtn {
+  border: none;
+  cursor: pointer;
+  color: #575757;
+  outline: none;
+  background-color:transparent;
+  font-size: 1rem;
+}
+
+
+
+/* Notes Balagan Grig Shape */
+.masonry {
+  color: rgb(77, 77, 77);
+  column-count: 4;
+  display: list-item;
+  /* color: transparent; */
+  list-style: none;
+}
+
+
+@media (max-width: 1279px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .masonry {
+    column-count: 1;
+  }
+}
+
+.note-list {
+  padding: 3% 7%;
+  display: inline-block;
+}
+
+audio {
+  outline: none;
+}
+
+.note {
+  margin: 20px;
+  padding: 10px;
+  transition: .3s;
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  /* break-inside: avoid; */
+}
+
+.note:hover {
+  transform: scale(1.025);
+}

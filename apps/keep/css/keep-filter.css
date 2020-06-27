@@ -1,0 +1,31 @@
+.notes-filter {
+    padding: 10px;
+    font-family: 'Open Sans' sans-serif;
+    text-rendering: auto;
+}
+
+.filter-select {
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+}
+
+.fa-filter {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    color: #5e17eb;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin: 10px 25px;
+}
+
+/* select { */
+    /* margin-left: 25px; */
+    /* border-radius: 3px; */
+/* } */

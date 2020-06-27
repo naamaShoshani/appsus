@@ -1,0 +1,53 @@
+.note-action-bar {
+	margin-top: 10px;
+}
+
+.note-action-bar  {
+	cursor: pointer;
+	color: #474959;
+}
+
+.note-action-bar i:hover {
+	color: black;
+}
+
+.notes-edit input {
+	width: 100%;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.notes-edit i {
+	cursor: pointer;
+	color: #474959;
+	padding: 10px
+}
+
+.notes-edit i:hover {
+	color: black;
+}
+
+.pinned {
+	color: #5e17eb;
+}
+
+.fa-volume-up {
+	color: #5e17eb;
+}
+
+.fa-list {
+	color: #5e17eb;
+}
+
+.fa-image {
+	color: #5e17eb;
+}
+
+.fa-font {
+	color: #5e17eb;
+}
+
+.fa-youtube {
+	color: #5e17eb;
+}

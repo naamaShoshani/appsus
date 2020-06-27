@@ -1,0 +1,134 @@
+@import '../css/email-compose.css';
+@import '../css/email-details.css';
+@import '../css/email-list.css';
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* font-size: 1rem; */
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Open Sans' sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+    
+  /* Helpers */
+  
+  .flex {
+    display: flex;
+  }
+
+.email-app {
+    display: grid;
+    grid-template-columns: 15% 70%;
+    /* grid-template-rows: max-content 1fr; */
+    grid-template-areas:
+    "emailHeader emailHeader"
+    "emailNav emailMain";
+    color: #5e17eb;
+    margin-bottom: 20px;
+}
+
+.email-header {
+    grid-area: emailHeader;
+    align-self: center;
+    margin-left: 18%;
+}
+
+.email-nav {
+    text-align: center;
+}
+
+.email-nav-list {
+    color: #5e17eb;
+    font-weight: 900;
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+}
+
+.email-nav-list li {
+    margin: 5px 0;
+    padding: 8px 0;
+}
+
+.email-nav-list li:hover {
+    font-weight: bold;
+}
+
+.soeters {
+    flex-direction: row;
+    width: 80px;
+}
+
+@import './email/email-main.css';
+
+* {
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app-searchAndFilter {
+    /* width: 50%; */
+    padding: 20px;
+    
+/* row control: */
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.search-emails {
+    padding: 5px;
+    color: rgb(94, 23, 235);
+    background-color: white;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 23, 235);
+    border-image: initial;
+    border-radius: 50px;
+}
+
+select {
+    /* border: none; */
+    margin-bottom: 10px;
+    outline: none;
+    padding: 7px;
+    border: 1px solid #b3b3b3;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.app-title-container, .app-tilte, .app-sub-title-container, .app-sub-title {
+    display: none;
+}
+
+.home-title {
+    color: #292927;
+    font-size: 5rem;
+}
+
+.home-subtitle {
+    color: #292927;
+}
+
+.homepage-txt {
+    color: #292927;
+}
