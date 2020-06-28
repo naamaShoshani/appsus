@@ -74,11 +74,18 @@ nav {
     cursor: pointer;
     justify-content: space-between;
     display: flex;
+    height: 80px;
 }
 
 .unlogo {
     font-weight: 900;
     font-size: larger;
+}
+
+@media (max-width:620px) {
+    .unlogo {
+        font-size: 1.5rem;
+    }
 }
 
 .logo-slash {
@@ -88,19 +95,20 @@ color: orangered;
 .nav-links {
     display: flex;
     list-style: none;
+    font-weight: bold;
 }
 
-@media (max-width:650px) {
+@media (max-width:620px) {
     .nav-links {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 5px;
         flex-direction: column;
         position: fixed;
         top: 0;
         right: 0;
         margin: 0;
-
         display: block;
-
     }
 }
 
