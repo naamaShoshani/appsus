@@ -59,8 +59,9 @@ text-align: left;
 }
 
 .unicorn {
-    /* background-image: url('../../img/unicorn.png'); */
-    margin-left: 37%;
-    /* width: 400px;
-    height: 400px; */
+    width: 360px;
+    height: 380px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
