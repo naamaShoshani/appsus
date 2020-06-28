@@ -5,18 +5,23 @@ new Vue({
 	router: myRouter,
 	template: `
     <div>
+
         <header class="app-header">
-        <router-link class="logo" :to="'/'" > </router-link>
 
-            <nav class="nav-bar">
+<nav class="nav-bar">
+      
+        <router-link to="/" class="unlogo">Uri && Na<span class="logo-slash">\\'</span>ama</router-link>
+        
+<ul class="nav-links">
 
+        <li>        <router-link to='/email/inbox'>Email</router-link>
+        </li>
+        <li>        <router-link to='/keep'>Keep</router-link>
+        </li>
+        <li>        <router-link to='/books'>Books</router-link>
+        </li>
+        </ul?
 
-                
-                <router-link to="/" class="home-btn">Home</router-link>
-                <!-- <router-link to="/" class="home-btn" exact>Home</router-link> -->
-                <router-link to='/email/inbox'>Email</router-link>
-                <router-link to='/keep'>Keep</router-link>
-                <router-link to='/books'>Books</router-link>
             </nav>
                 
               
