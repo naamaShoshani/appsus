@@ -95,7 +95,6 @@ color: orangered;
 .nav-links {
     display: flex;
     list-style: none;
-    font-weight: bold;
 }
 
 @media (max-width:620px) {
