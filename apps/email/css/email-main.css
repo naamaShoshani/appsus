@@ -35,6 +35,13 @@
     margin-bottom: 20px;
 }
 
+@media (max-width:720px) {
+    
+    .email-app {
+        display: inline-block;
+        /* grid-template-columns: 100%; */
+    }
+}
 
 .email-header {
     grid-area: emailHeader;
@@ -56,11 +63,22 @@
     font-size: 15px;
 }
 
-
 .email-nav-list li {
     margin: 5px 0;
     padding: 8px 0;
 }
+
+@media (max-width:940px) {
+    .email-nav-list li {
+        /* display: inline-block; */
+        display: contents;
+        text-align: inherit;
+        margin-right: 15px;
+        display: inline;
+        margin-left: 7%;
+    }
+}
+
 
 .email-nav-list li:hover {
     font-weight: bold;

@@ -15,6 +15,12 @@
     font-size: small;
 }
 
+@media (max-width:845px) {
+    .email-list-container {
+        width: 630px;
+        margin-left: 15px;
+    }
+}
 
 .email-item {
     display: flex;
@@ -52,12 +58,6 @@
     width: 50px;
     flex-shrink: 0;
 }
-
-/* @media (min-width: 400px) {
-    .email-from {
-        width: 90px;
-    }   
-} */
 
 .email-body, .email-subject {
     white-space: nowrap; 
