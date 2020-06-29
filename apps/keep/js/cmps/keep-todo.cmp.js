@@ -1,8 +1,6 @@
 import noteActionBar  from './keep-actions.cmp.js'
 import noteEdit  from './keep-edit.cmp.js'
 
-// Imports done ^^
-
 import {bus,MARK_TODO_DONE,DELETE_TODO} from '../services/keep-event-bus-service.js'
 
 
